@@ -4,6 +4,7 @@ const port = 3000;
 
 //let lista= ["peixe", "brocolis", "mortadela", 1, 3, "pao"]
 const cards = function(tudo){
+  constructor()
   for( i=0; tudo.index == i; i++){
     return`
     
