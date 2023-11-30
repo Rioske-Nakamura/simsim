@@ -25,8 +25,8 @@ const listas = [
  {id: 7, nome: "Motor V8", preco: "3.500", descricao: "Vrumm Vrrum VRRUMMMM VRummm e so vendemos o motor o carro ignorem.", imagem: "v8.jpg"},
  {id: 8, nome: "Veja limpador de vidros", preco: "5,00", descricao: "Limpa tao bem se voce passar a lingua no chão voce fica com gosto de veja na boca e talvez doente.", imagem: "veja.png"},
  {id: 9, nome: "Picole sabor morango", preco: "1,00", descricao: "Sabor gostoso compre.", imagem: "morango.png"},
- {id: 10, nome: "Algo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
- {id: 11, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
+ {id: 10, nome: "Hobbit RPG", preco: "70,00", descricao: "Um jogo de rpg muito famoso.", imagem: "rpg.jpg"},
+ {id: 11, nome: "Bazucas", preco: "920,75", descricao: "Uma arma para matar Creeper.", imagem: "bazuca.jpg"},
  {id: 12, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
  ]
 
