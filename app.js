@@ -35,12 +35,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/produto', (req, res) => {
-  res.render('produto', { message: 'Olá, Mundo!', foi: "prontooooooooooooooooo" });
+  res.render('produto', { message: 'Olá, Mundo!', foi: "pronto" });
 });
 
 
 app.get('/produtos', (req, res) => {
-  res.render('produtos', { message: 'Olá, Mundo!', lista: ["peixe", "brocolis", "mortadela", 1, 3, "pao"], lak: ["/produto"]});
+  res.render('produtos', { message: 'Olá, Mundo!', listas: listas});
 });
 
 app.listen(port, () => {
