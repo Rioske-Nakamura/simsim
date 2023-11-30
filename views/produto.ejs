@@ -37,7 +37,9 @@
   <div class="card" style="width: 18rem;">
     <img src="/imagens/<%= listas[idproduto -1].imagem%>" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title"><%= listas[idproduto -1].nome%></h5>
+      <p class="card-text"><%= listas[idproduto -1].descricao%></p>
+      <h4 class="card-text"> R$ <%= listas[idproduto -1].preco%></h4>
     </div>
   </div>
 

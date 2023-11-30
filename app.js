@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 const listas = [
- {id: 1, nome: "peixe", preco: "43,78", descricao: "jdhdsjhfcgsgh aigfvy iuctdbsf vybgsdufgtsjy dfgticwagug.", imagem: "peixes.jpg"},
+ {id: 1, nome: "Peixe", preco: "43,78", descricao: "jdhdsjhfcgsgh aigfvy iuctdbsf vybgsdufgtsjy dfgticwagug.", imagem: "peixes.jpg"},
  {id: 2, nome: "Coentro", preco: "2,20", descricao: "Tum pero para comida, muito verde tambem chamada de cheiro verde.", imagem: "coentro.jpg"},
  {id: 3, nome: "Don Quixote", preco: "45,78", descricao: "Livro legal, escrito legal e de forma legal.", imagem: "donquichote.jpg"},
  {id: 4, nome: "Helicoptero", preco: "9.000", descricao: "Um helicoptero feito pela NAZ que voa e as crianças olham pra cima.", imagem: "helicoptero.jpg"},
@@ -25,7 +25,7 @@ const listas = [
  {id: 7, nome: "Motor V8", preco: "3.500", descricao: "Vrumm Vrrum VRRUMMMM VRummm e so vendemos o motor o carro ignorem.", imagem: "v8.jpg"},
  {id: 8, nome: "Veja limpador de vidros", preco: "5,00", descricao: "Limpa tao bem se voce passar a lingua no chão voce fica com gosto de veja na boca e talvez doente.", imagem: "veja.png"},
  {id: 9, nome: "Picole sabor morango", preco: "1,00", descricao: "Sabor gostoso compre.", imagem: "morango.png"},
- {id: 10, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
+ {id: 10, nome: "Algo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
  {id: 11, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
  {id: 12, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
  ]
