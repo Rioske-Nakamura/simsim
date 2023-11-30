@@ -26,6 +26,8 @@ const listas = [
  {id: 8, nome: "Veja limpador de vidros", preco: "5,00", descricao: "Limpa tao bem se voce passar a lingua no chão voce fica com gosto de veja na boca e talvez doente.", imagem: "veja.png"},
  {id: 9, nome: "Picole sabor morango", preco: "1,00", descricao: "Sabor gostoso compre.", imagem: "morango.png"},
  {id: 10, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
+ {id: 11, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
+ {id: 12, nome: "Pr. Piccolo", preco: "00,01", descricao: "Um professor meio calvo.", imagem: "professor.jpeg"},
  ]
 
 
@@ -34,8 +36,9 @@ app.get('/', (req, res) => {
   res.render('index', { message: 'Olá, Mundo!' });
 });
 
-app.get('/produto', (req, res) => {
-  res.render('produto', { message: 'Olá, Mundo!', foi: "pronto" });
+app.get('/produto/:id', (req, res) => {
+const idproduto= req.params.id
+  res.render('produto', { message: 'Olá, Mundo!', listas:listas, idproduto:idproduto });
 });
 
 
